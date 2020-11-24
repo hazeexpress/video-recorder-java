@@ -89,6 +89,6 @@ public class FFmpegWrapper {
 
     private String getScreenSize() {
         Dimension dimension = conf().screenSize();
-        return dimension.width + "x" + dimension.height;
+        return 1920 + "x" + 1040;
     }
 }
